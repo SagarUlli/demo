@@ -9,5 +9,5 @@ import com.example.demo.dto.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
-	Optional<User> findByEmail(String email); // Custom finder for login
+	Optional<User> findByEmail(String email);
 }
